@@ -1,7 +1,7 @@
 (library
   (name duration)
   (public_name duration)
-  (modules duration)
+  (modules duration duration_cap_tee)
   (ocamlopt_flags (-S)))
 
 (test
