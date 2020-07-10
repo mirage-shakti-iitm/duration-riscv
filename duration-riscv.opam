@@ -16,6 +16,7 @@ depends: [
 ]
 
 build: [
+  [make "add-cap-files"]
   ["dune" "subst"] {pinned}
   ["dune" "build" "--verbose" "-x" "riscv" "-p" "duration" "-j" jobs]
   ["dune" "runtest" "-p" "duration" "-j" jobs] {with-test}
