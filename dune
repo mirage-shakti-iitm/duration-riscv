@@ -1,8 +1,8 @@
 (library
   (name duration)
   (public_name duration)
-  (modules duration duration_cap_tee)
-  (ocamlopt_flags (-S -function-sections)))
+  (modules duration)
+  (ocamlopt_flags (-default-compartment-id 1 -function-sections)))
 
 (test
   (name tests)
