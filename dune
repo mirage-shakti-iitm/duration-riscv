@@ -2,7 +2,7 @@
   (name duration)
   (public_name duration)
   (modules duration)
-  (ocamlopt_flags (-default-compartment-id 6 -function-sections)))
+  (ocamlopt_flags (-default-compartment-id 18 -function-sections)))
 
 (test
   (name tests)
